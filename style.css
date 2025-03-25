@@ -1,0 +1,154 @@
+/* Стилізуйте ваш сайт тут */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #dacab8;
+}
+
+h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 36px;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: #591616;
+    color: #dacab8;
+    text-shadow: 2px 2px 4px #A6896F;
+    margin: 0 auto;
+    padding: 40px 0;
+}
+
+h1 a {
+    text-decoration: none;
+    color: #dacab8;
+}
+
+h1 a:hover {
+    color: #A6896F;
+}
+.navigation {
+    text-align: center;
+    margin-top: 5px; /* Відступ від заголовка (змініть за потребою) */
+    background-color: #591616; /* Фон навігації */
+    padding: 10px 0; /* Відступи всередині контейнера навігації (змініть за потребою) */
+}
+
+.navigation a {
+    font-family: 'Playfair Display', serif;
+    text-decoration: none;
+    color: #dacab8;
+    margin: 0 15px; /* Відступи між пунктами навігації (змініть за потребою) */
+    font-size: 18px;
+    transition: color 0.3s, font-size 0.3s; /* Додавання анімації для кольору та розміру тексту */
+}
+
+.navigation a:hover {
+    color: #A6896F;
+    font-size: 20px; /* Збільшення розміру тексту при наведенні */
+    text-shadow: 2px 2px 4px #A6896F; /* Додавання тіні для тексту */
+}
+
+.iframe-box iframe {
+    border: 2px solid #591616;
+    width: 100%;
+    height: 50vh;
+}
+
+.content {
+    display: flex;
+    margin: 20px;
+    align-items: flex-start;
+}
+
+.text {
+    flex: 1;
+    padding: 0% 100px; /* Додайте падінг справа і зліва для більшої відстані від лівого краю */
+    margin-right: 10px;
+}
+
+.text p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    line-height: 1.5;
+    margin: 0;
+    color: #333;
+}
+
+.video-container {
+    flex: 1;
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 50px;
+    height: 0;
+    overflow: hidden;
+    text-align: right;
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    right: 100px;
+    width: 80%;
+    height: 80%;
+}
+iframe {
+    width: 80%; /* Ширина віджета (можна змінити за потребою) */
+    height: 800px; /* Висота віджета (можна змінити за потребою) */
+    margin: 0 auto; /* Розміщення віджета по центру контейнера */
+    display: block; /* Щоб віджет був виразним блоком */
+}
+
+/* Style the audio player */
+.audio-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.audio-container audio {
+    width: 80%; /* Adjust the width as needed */
+}
+
+/* Style the audio player controls */
+.audio-container audio::-webkit-media-controls-panel {
+    background-color: #A6896F;
+    border: 10px solid #591616;
+}
+
+.audio-container audio::-webkit-media-controls-play-button,
+.audio-container audio::-webkit-media-controls-pause-button {
+    color: #A6896F;
+}
+
+/* Style the audio player progress bar */
+.audio-container audio::-webkit-media-controls-current-time-display,
+.audio-container audio::-webkit-media-controls-time-remaining-display {
+    color: #dacab8;
+}
+
+.audio-container audio::-webkit-media-controls-seek-back-button,
+.audio-container audio::-webkit-media-controls-seek-forward-button {
+    color: #591616;
+}
+.centered-iframe {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.centered-iframe iframe {
+    width: 500px; 
+    height: 500px; 
+}
+
+.inf {
+    display: flex;
+  justify-content: center; /* Горизонтально по центру */
+  align-items: center; /* Вертикально по центру */
+  height: 50vh; 
+}
+
+
+
+
